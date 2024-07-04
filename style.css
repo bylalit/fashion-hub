@@ -120,7 +120,7 @@
   
   .about {
     width: 100%;
-    padding: 80px 120px 50px;
+    padding: 80px 120px 70px;
   }
   .about h2 {
     font-size: 35px;
@@ -140,5 +140,30 @@
   }
   .about .box .box1 img {
     width: 100%;
+  }
+  
+  .about .box .box1 .tex{
+    text-align: center;
+  }
+  .about .box .box1 .tex h5{
+    padding: 10px 0 5px;
+  }
+  .about .box .box1 .tex h6{
+    color: red;
+  }
+
+
+
+  .images{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+  }
+  .images img{
+    width: 100%;
+  }
+
+  .images .z1{
+    width: 50%;
   }
   
