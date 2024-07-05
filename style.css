@@ -116,7 +116,7 @@
 
 .about {
   width: 100%;
-  padding: 100px 120px 70px;
+  padding: 100px 120px 20px;
 }
 .about h2 {
   font-size: 50px;
@@ -207,23 +207,3 @@
   filter: grayscale(80%);
 }
 
-/*
-
-.images .z1{
-  width: 50%;
-}
-.images .z1 img {
-  width: 100%;
-}
-.images .z2{
-  width: 30%;
-}
-.images .z2 img {
-  width: 100%;
-}
-.images .z3{
-  width: 20%;
-}
-.images .z3 img {
-  width: 100%;
-} */
