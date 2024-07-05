@@ -202,8 +202,8 @@
   object-fit: cover;
   object-position: center;
 }
-/* .main-img .z3 img:hover{
+.main-img .z3 img:hover{
   transform: scale(0.9);
   filter: grayscale(80%);
-} */
+}
 
