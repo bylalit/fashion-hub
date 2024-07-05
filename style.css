@@ -196,7 +196,7 @@
   width: 25%;
   padding: 10px;
 }
- /* .main-img .z3 img{
+ .main-img .z3 img{
   width: 100%;
   transition: all 0.9s;
   object-fit: cover;
@@ -205,5 +205,5 @@
 .main-img .z3 img:hover{
   transform: scale(0.9);
   filter: grayscale(80%);
-} */
+}
 
