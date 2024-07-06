@@ -231,7 +231,7 @@
   opacity: 0.8;
 }
 
-/* 
+
 .box-bg{
   width: 100%;
   height: auto;
@@ -246,7 +246,7 @@
   background-image: url(images/popular1.png.webp);
   background-repeat: no-repeat;
   background-size: cover;
-} */
+}
 
 
 
@@ -347,4 +347,81 @@
   line-height: 30px;
   opacity: 0.8;
   color: white;
+}
+
+
+.footer{
+  width: 100%;
+  padding: 50px 200px 100px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer .f11{
+  width: 30%;
+}
+.footer .f11 h4{
+  font-size: 33px;
+  font-family: sans-serif;
+  cursor: pointer;
+  padding-bottom: 40px;
+}
+.footer .f11 h4 span{
+  color: red;
+}
+
+.footer .f11 p{
+  width: 100%;
+  line-height: 30px;
+  opacity: 0.8;
+}
+
+.footer .f1 h5{
+  font-size: 20px;
+  font-family: sans-serif;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+
+.footer .f1 p{
+  padding-bottom: 15px;
+  font-family: sans-serif;
+  opacity: 0.8;
+}
+
+.foot{
+  width: 100%;
+  padding: 0 200px 80px;
+  display: flex;
+}
+
+.foot .copy{
+  width: 65%;
+}
+.foot .copy p{
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.foot .copy p i{
+  color: red;
+}
+.foot .copy p span{
+  color: red;
+  font-family: sans-serif;
+}
+
+
+.foot .socia{
+  width: 45%;
+  display: flex;
+  justify-content: end;
+}
+
+.foot .socia i{
+  padding-right: 20px;
+  cursor: pointer;
+}
+.foot .socia i:hover{
+  color: red;
 }
