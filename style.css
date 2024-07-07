@@ -511,6 +511,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  background-position: center;
 }
 
 .box-bg .l5 .bg-img i {
