@@ -241,7 +241,7 @@
   width: 30%;
 }
 .box-bg .l1 .bg-img {
-  width: 100%;
+  width: auto;
   height: 400px;
   background-image: url(images/popular1.png.webp);
   background-repeat: no-repeat;
@@ -308,7 +308,7 @@
   width: 30%;
 }
 .box-bg .l2 .bg-img {
-  width: 100%;
+  width: auto;
   height: 400px;
   background-image: url(images/popular2.png.webp);
   background-repeat: no-repeat;
@@ -375,7 +375,7 @@
   width: 30%;
 }
 .box-bg .l3 .bg-img {
-  width: 100%;
+  width: auto;
   height: 400px;
   background-image: url(images/popular3.png.webp);
   background-repeat: no-repeat;
@@ -442,7 +442,7 @@
   width: 30%;
 }
 .box-bg .l4 .bg-img {
-  width: 100%;
+  width: auto;
   height: 400px;
   background-image: url(images/popular4.png.webp);
   background-repeat: no-repeat;
@@ -509,7 +509,7 @@
   width: 30%;
 }
 .box-bg .l5 .bg-img {
-  width: 100%;
+  width: auto;
   height: 400px;
   background-image: url(images/popular5.png.webp);
   background-repeat: no-repeat;
@@ -576,7 +576,7 @@
   width: 30%;
 }
 .box-bg .l6 .bg-img {
-  width: 100%;
+  width: auto;
   height: 400px;
   background-image: url(images/popular6.png.webp);
   background-repeat: no-repeat;
@@ -808,6 +808,34 @@
   color: red;
 }
 
+@media screen and (max-width: 1270px){
+  .item {
+    padding: 100px 150px 20px;
+  }
+  .box-bg .l1 .bg-img{
+    height: 350px;
+  }
+  
+  .box-bg .l2 .bg-img{
+    height: 350px;
+  }
+  
+  .box-bg .l3 .bg-img{
+    height: 350px;
+  }
+  
+  .box-bg .l4 .bg-img{
+    height: 350px;
+  }
+  
+  .box-bg .l5 .bg-img{
+    height: 350px;
+  }
+  
+  .box-bg .l6 .bg-img{
+    height: 350px;
+  }
+}
 
 @media screen and (max-width: 1120px) {
   .about {
@@ -828,6 +856,30 @@
   }
   .foot{
     padding: 0 100px 80px;
+  }
+
+  .box-bg .l1 .bg-img{
+    height: 335px;
+  }
+  
+  .box-bg .l2 .bg-img{
+    height: 335px;
+  }
+  
+  .box-bg .l3 .bg-img{
+    height: 335px;
+  }
+  
+  .box-bg .l4 .bg-img{
+    height: 335px;
+  }
+  
+  .box-bg .l5 .bg-img{
+    height: 335px;
+  }
+  
+  .box-bg .l6 .bg-img{
+    height: 335px;
   }
 }
 
@@ -885,4 +937,9 @@
   .foot{
     padding: 0 80px 80px;
   }
+}
+
+
+@media screen and (max-width: 850px){
+
 }
