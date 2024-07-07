@@ -808,6 +808,10 @@
   color: red;
 }
 
+.page .by{
+  padding-left: 20px;
+}
+
 @media screen and (max-width: 1270px) {
   .item {
     padding: 100px 150px 20px;
@@ -941,6 +945,10 @@
 }
 
 @media screen and (max-width: 850px) {
+  .nav .logo {
+    width: 50%;
+  }
+
   .nav .list {
     display: none;
   }
@@ -968,7 +976,7 @@
     padding: 0px 50px 20px;
   }
   .icon-box {
-    padding: 50px 50px 100px;
+    padding: 30px 50px 50px;
   }
 
   .footer {
@@ -1013,4 +1021,135 @@
 .box-bg .l6{
   width: 50%;
 }
+
+.page .wa-te h3 {
+  font-size: 20px;
+  padding: 20px 0;
+}
+.page .wa-te p {
+  width: 85%;
+  font-size: 12px;
+  line-height: 20px;
+  padding-bottom: 20px;
+}
+.page .wa-te button{
+  font-size: 14px;
+  padding: 16px 25px;
+}
+.page .wa-img img {
+  width: 100%;
+  padding: 5px;
+}
+
+.icon-box .model-data{
+  flex-wrap: wrap;
+}
+.icon-box .model-data .model{
+  width: 50%;
+}
+.footer{
+  flex-wrap: wrap;
+}
+.footer .f11{
+  width: 50%;
+}
+.footer .f11 h4{
+  padding-bottom: 30px;
+}
+.footer .f1{
+  width: 40%;
+}
+.footer.f1 h5{
+  padding-bottom: 30px;
+}
+
+.page .by{
+  padding-left: 20px;
+}
+
+}
+
+
+@media screen and (max-width: 620px){
+  .hero .tital h1 {
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+  .hero .tital p {
+    width: 80%;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+
+  .hero .tital .btn button{
+    padding: 13px 28px;
+    font-size: 13px;
+  }
+  .about .box{
+    flex-wrap: wrap;
+  }
+  .about .box .box1 {
+    width: 50%;
+}
+
+.about {
+  padding: 80px 30px 20px;
+}
+.page {
+  padding: 100px 30px 50px;
+}
+.item {
+  padding: 0px 30px 20px;
+}
+.icon-box {
+  padding: 30px 30px 50px;
+}
+
+.footer {
+  padding: 50px 30px 100px;
+}
+.foot {
+  padding: 0 30px 80px;
+}
+
+.about h2 {
+  font-size: 40px;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+.about .box .box1 {
+  padding: 0;
+}
+
+.main-img {
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 40px 0;
+}
+
+.main-img .z1 {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.main-img .z2 {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.main-img .z3 {
+  width: 100%;
+}
+.about .box .box1 .tex h5 {
+  font-size: 16px;
+}
+.main-img .z1 img {
+  padding: 0;
+}
+.main-img .z2 img {
+  padding: 0;
+}
+.main-img .z3{
+  padding: 0;
+}
+
 }
