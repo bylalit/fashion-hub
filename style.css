@@ -808,31 +808,31 @@
   color: red;
 }
 
-@media screen and (max-width: 1270px){
+@media screen and (max-width: 1270px) {
   .item {
     padding: 100px 150px 20px;
   }
-  .box-bg .l1 .bg-img{
+  .box-bg .l1 .bg-img {
     height: 350px;
   }
-  
-  .box-bg .l2 .bg-img{
+
+  .box-bg .l2 .bg-img {
     height: 350px;
   }
-  
-  .box-bg .l3 .bg-img{
+
+  .box-bg .l3 .bg-img {
     height: 350px;
   }
-  
-  .box-bg .l4 .bg-img{
+
+  .box-bg .l4 .bg-img {
     height: 350px;
   }
-  
-  .box-bg .l5 .bg-img{
+
+  .box-bg .l5 .bg-img {
     height: 350px;
   }
-  
-  .box-bg .l6 .bg-img{
+
+  .box-bg .l6 .bg-img {
     height: 350px;
   }
 }
@@ -854,36 +854,34 @@
   .footer {
     padding: 50px 100px 100px;
   }
-  .foot{
+  .foot {
     padding: 0 100px 80px;
   }
 
-  .box-bg .l1 .bg-img{
+  .box-bg .l1 .bg-img {
     height: 335px;
   }
-  
-  .box-bg .l2 .bg-img{
+
+  .box-bg .l2 .bg-img {
     height: 335px;
   }
-  
-  .box-bg .l3 .bg-img{
+
+  .box-bg .l3 .bg-img {
     height: 335px;
   }
-  
-  .box-bg .l4 .bg-img{
+
+  .box-bg .l4 .bg-img {
     height: 335px;
   }
-  
-  .box-bg .l5 .bg-img{
+
+  .box-bg .l5 .bg-img {
     height: 335px;
   }
-  
-  .box-bg .l6 .bg-img{
+
+  .box-bg .l6 .bg-img {
     height: 335px;
   }
 }
-
-
 
 @media screen and (max-width: 1000px) {
   .nav .list {
@@ -934,12 +932,59 @@
   .footer {
     padding: 50px 80px 100px;
   }
-  .foot{
+  .foot {
     padding: 0 80px 80px;
+  }
+  .item p {
+    width: 70%;
   }
 }
 
+@media screen and (max-width: 850px) {
+  .nav .list {
+    display: none;
+  }
+  .hero .tital h1 {
+    font-size: 50px;
+    padding-bottom: 30px;
+  }
+  .hero .tital {
+    padding-left: 6%;
+  }
+  .hero .tital p {
+    width: 80%;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 30px;
+  }
 
-@media screen and (max-width: 850px){
+  .about {
+    padding: 80px 50px 20px;
+  }
+  .page {
+    padding: 100px 50px 50px;
+  }
+  .item {
+    padding: 0px 50px 20px;
+  }
+  .icon-box {
+    padding: 50px 50px 100px;
+  }
 
+  .footer {
+    padding: 50px 50px 100px;
+  }
+  .foot {
+    padding: 0 50px 80px;
+  }
+
+  .about .box .box1 .tex h5 {
+    font-size: 14px;
+  }
+  .about .box .box1 .tex h6 {
+    font-size: 12px;
+  }
+  .item p {
+    width: 100%;
+  }
 }
