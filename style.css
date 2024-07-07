@@ -987,4 +987,30 @@
   .item p {
     width: 100%;
   }
+  .box-bg {
+   flex-wrap: wrap;
+}
+.box-bg .l1{
+  width: 45%;
+}
+
+.box-bg .l2{
+  width: 45%;
+}
+
+.box-bg .l3{
+  width: 50%;
+}
+
+.box-bg .l4{
+  width: 50%;
+}
+
+.box-bg .l5{
+  width: 50%;
+}
+
+.box-bg .l6{
+  width: 50%;
+}
 }
